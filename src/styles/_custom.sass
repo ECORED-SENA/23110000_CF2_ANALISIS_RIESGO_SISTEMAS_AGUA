@@ -1,0 +1,96 @@
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: #12263F
+
+.fondo1
+  background-image: url('../assets/curso/tema1/fondo1.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.fondo2
+  background-color: #6FA2FF
+
+.img-infografica-b__modal
+  background-color: rgba(242, 242, 242, 1) !important
+  -webkit-animation: entrada-modal 0.2s ease-in-out forwards 
+  animation: entrada-modal 0.2s ease-in-out forwards
+
+.img-infografica-b__modal__contenido div > *
+  color: #12263F !important
+
+.fa-times:before 
+  content: "\f00d"
+  color: #12263F !important
+
+.bloque-texto-g__img 
+  width: 50%
+  position: absolute
+  top: 0
+  right: 0
+  left: auto
+  bottom: 0
+  background-position: center
+  background-size: cover
+
+.bloque-texto-g__texto
+    position: relative
+    width: 70%
+    left: auto
+    right: 30%
+    background-color: #fff
+
+@media (min-width: $bp-min-xxl) //1400px
+  .reducir
+    width: 80%
+    height: 80%
+    margin: 2em 0 0 2em
+
+@media (max-width: $bp-max-xl) //1400px
+  .reducir
+    width: 95%
+    height: 95%
+    margin: 2em 0 0 2em
+@media (max-width: $bp-max-lg) //1200px
+  .reducir
+    width: 50%
+    height: 50%
+    margin: 2em 0 0 2em
+
+@media (max-width: $bp-max-md) //992px
+  .reducir
+    width: 50%
+    height: 50%
+    margin: 0 auto
+  .bloque-texto-g__img 
+      width: 100%
+      height: 50%
+  .bloque-texto-g__texto 
+    position: relative
+    width: 100%
+    left: 0
+    right: 0
+    background-color: hsla(0,0%,100%,.95)
+
+@media (max-width: $bp-max-sm)  //768px
+  .reducir
+    width: 60%
+    height: 60%
+    margin: 0 auto !important
+
+@media (max-width: $bp-max-xs) //576px
+  .reducir
+    width: 60%
+    height: 60%
+    margin: 0 auto
+
+/*@media (min-width: $bp-min-xxl) //1400px
+
+  @media (max-width: $bp-max-xl) //1400px
+
+  @media (max-width: $bp-max-lg) //1200px
+
+  @media (max-width: $bp-max-md) //992px
+
+  @media (max-width: $bp-max-sm)  //768px
+
+  @media (max-width: $bp-max-xs) //576px

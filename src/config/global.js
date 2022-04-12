@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Diagnóstico de riesgos en sistemas de tratamiento.',
+    descripcionCurso:
+      'En Colombia existe normativa relacionada con el control de la calidad del agua potable que consume la población, que sirve de base para el diagnóstico de la gestión de los riesgos asociados, teniendo en cuenta el cálculo de indicadores de riesgo en la calidad del agua y a la elaboración de mapas de riesgo que se convierten en herramientas útiles en dicho diagnóstico.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/interno.png'),
   },
   menuPrincipal: {
     menu: [
@@ -22,31 +24,73 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normativa relacionada con riesgos de agua potable',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            titulo: 'Resolución 330 de 2017',
+            hash: 'res330',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Decreto 1575 de 2007 y Resolución 2115 de 2007os',
+            hash: 'dec1575',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Resolución 4716 de 2010',
+            hash: 'res4716',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Resolución 811 de 2008',
+            hash: 'res811',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Decreto 4741 de 2005', //--(compilado en el Decreto 1076 de 2015)',
+            hash: 'dec4741',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Decreto 1609 de 2002',
+            hash: 'dec1609',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Mapas de riesgo en sistemas de tratamiento', //--y distribución de agua potable',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Principios básicos de muestreo de agua potable',
+            hash: 'principios',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Cálculo del Índice de Riesgo', //--de la Calidad del Agua Potable (IRCA)',
+            hash: 'calculo',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Elaboración de mapas de riesgo',
+            hash: 'mapas',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -95,27 +139,135 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
+    {
+      referencia:
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+    },
+    {
+      referencia:
+        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+    },
+    {
+      referencia:
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+    },
+    {
+      referencia:
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+    },
+    {
+      referencia:
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+    },
+    {
+      referencia:
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+    },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'MoodBoard',
+      significado:
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Suftware</em>',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Pirognóstico',
+      significado:
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+    },
+    {
+      termino: '<em>Áectores</em>',
+      significado:
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Diseña',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'DIseño',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'Tipología',
+      significado:
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+    },
+    {
+      termino: 'Bidimensional',
+      significado:
+        'que se representa según su altura y su anchura y no su profundidad.',
+    },
+    {
+      termino: 'Interés Inferior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interseccionalidad',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interés superior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
+      texto:
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      tipo: 'Video',
       link: 'https://www.google.com/',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
+      texto:
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
       descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto:
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: ['https://www.google.com/', 'https://www.google.com/'],
     },
   ],
   creditos: {
@@ -131,7 +283,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -139,53 +291,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
