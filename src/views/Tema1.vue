@@ -135,6 +135,136 @@
           span , establece que el 
           span.text-bold Instituto Nacional de Salud (INS) 
           span debe cumplir, entre otras, con las funciones relacionadas a continuación:
+
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta--boton.fondo3.text-white--hover.p-4.tamano
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/microscopio.svg')
+
+          p Coordinación de la red nacional de laboratorios para el control y la vigilancia de la calidad del agua para consumo humano, estableciendo las orientaciones a los laboratorios prestadores del servicio de los análisis físicos, químicos y microbiológicos.
+
+      .col-12.col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
+        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta--boton.fondo4.text-white--hover.p-4.tamano
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/lupa.svg')
+
+          p Coordinación del programa interlaboratorio de control de calidad del agua potable - PICCAP.
+
+      .col-12.col-sm-6.col-lg-4.col-xl-3.mb-4.mb-sm-0
+        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta--boton.fondo3.text-white--hover.p-4.tamano
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/celulas.svg')
+
+          p Inscripción en el programa interlaboratorio de control de calidad para agua potable - PICCAP, a laboratorios pertenecientes a la red de salud pública y los laboratorios privados que lo soliciten (nacionales o extranjeros) que lleven a cabo análisis físicos, químicos o microbiológicos de agua para consumo humano.
+    .row.align-items-center.my-5
+      .col-xl-7.col-12
+        p.mb-4 Es así como el 
+          span.text-bold decreto 1575 
+          span presenta las responsabilidades concernientes a:
+        ul.lista-ul--color
+          li 
+            i.fas.fa-thumbtack
+            p Las direcciones departamentales, distritales y municipales de salud (en el 
+              span.text-bold artículo 8
+              span ). 
+          li 
+            i.fas.fa-thumbtack
+            p Las empresas prestadoras del servicio de acueducto (
+              span.text-bold artículo 9
+              span ).
+          li 
+            i.fas.fa-thumbtack
+            p Los usuarios (
+              span.text-bold artículo 10
+              span ).
+      .col-xl-3.col-6
+        img(src='@/assets/curso/tema1/figura3.svg')
+
+    p.mb-5 Otro aspecto relevante que se establece en el decreto tiene que ver con los indicadores y herramientas necesarias para la vigilancia de los factores de riesgo de calidad de agua suministrada en el sistema, estableciendo en el 
+      span.text-bold artículo 12 
+      span el índice de riesgo de la calidad del agua para consumo humano (
+      span.text-bold  IRCA
+      span ), el cual se define como el grado de riesgo de ocurrencia de enfermedades relacionadas con el incumplimiento de características físico-químicas y microbiológicas del agua en redes de distribución de agua potable. 
+
+    .row
+      .col-xl-12
+        .cajon.color-secundario.p-4.mb-4
+          .row.justify-content-center
+            .col-xl-1.col-md-6.col-sm-6
+              img(src='@/assets/curso/tema1/figura4.svg')
+            .col-xl-11.col-md-12
+              p Dentro del 
+                span.text-bold  artículo 15 
+                span del 
+                span.text-bold decreto 1575 
+                span se contempla la elaboración del mapa de riesgo de calidad del agua para consumo humano, que debe ser realizado por la autoridad sanitaria departamental o distrital y por la autoridad ambiental competente, en la jurisdicción que se encuentre el sistema.
+    p.mt-5 En relación con la 
+      span.text-bold resolución 2115 de 2007 
+      span se tiene que:
+    p.my-5 Contempla las características o parámetros, los instrumentos básicos y las frecuencias en el sistema de control y vigilancia para la calidad del agua de consumo humano, se establecen los valores máximos aceptables en los parámetros físicos, químicos y microbiológicos del agua para consumo humano.
+    p.mb-5 De esta manera, la 
+      span.text-bold resolución establece valores máximos 
+      span para los siguientes parámetros:
+
+    .row
+      .col-xl-6.col-sm-12
+        ul.lista-ul--color
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 2
+            span . Color aparente, olor y sabor, turbiedad 
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 3
+            span . Conductividad
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 4
+            span . pH
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 5
+              span.nuevo-font . Características químicas con efecto adverso en la salud
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 6
+              span.nuevo-font . Características químicas con implicaciones sobre salud humana
+      .col-xl-6.col-sm-12
+        ul.lista-ul--color
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 7
+              span.nuevo-font . Características químicas con mayores consecuencias económicas e indirectas sobre la salud humana
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 8
+              span.nuevo-font . Características químicas en relación con plaguicidas y otras sustancias
+
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 9
+              span.nuevo-font . Características químicas de otras sustancias del proceso de potabilización
+          li 
+            i.fas.fa-microscope.color-micro
+            p.text-bold Artículo 11
+              span.nuevo-font . Características microbiológicas
+
 </template>
 
 <script>
