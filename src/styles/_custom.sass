@@ -11,7 +11,7 @@
   background-color: #6FA2FF
 
 .fondo3
-  background-color: #A5C6FF !important 
+  background-color: #A5C6FF !important
 
 .fondo3:hover
   background-color: #ffab1d !important
@@ -22,14 +22,119 @@
 .fondo4:hover
   background-color: #727997 !important
 
+.fondo5
+  background-color: #DCE9FF !important
+
+.fondo6:before
+  background-color: #E2FFF4 !important
+
+.fondo7
+  background-image: url('../assets/curso/tema2/fondo1.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top
+
+.fondo8
+  background-image: url('../assets/curso/tema2/fondo2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top
+
+.fondo9:before
+  background-color: #D8E6FF !important
+  top: 60%
+  bottom: 0
+  left: 75%
+  right: 0
+
+.fondo10
+  background-color: #E2FFF4
+  
+.fondo11
+  background-color: #ACC9FF
+
+.fondo12
+  background-color: #588DED !important
+
+.fondo13
+  background-color: #BCFFF9 !important
+
+.fondo14
+  background-color: #F3F9FF
+
+.tarjeta-avatar > img 
+  position: absolute
+  left: 50%
+  top: 13px !important
+  transform: translateX(-50%)
+  display: block
+  width: 100% !important
+
+.margen-arriba
+  margin-top: 20rem
+  margin-bottom: 5rem
+
 .color-micro:before
   color: #005BFF
+
+.texto-blanco
+  color: #fff !important
 
 .cajon.color-secundario
   background-color: #E2FFF4 !important
 
+.cajon.color-primario
+  background-color: #D8E6FF !important
+
+.mover-izq
+  margin-left: -40px
+
+.mover-der
+  margin-right: -40px
+
+.mover-izq2
+  margin-left: 40px
+
+.mover-der2
+  margin-right: 40px
+
 .tamano
   height: 523px
+
+.borde-der
+  border-top-right-radius: 0 !important
+  border-bottom-right-radius: 0 !important
+
+.borde-izq
+  border-top-left-radius: 0 !important
+  border-bottom-left-radius: 0 !important
+
+.tamano-tar
+  width: 100%
+  height: 100%
+
+.tamano-tar2
+  height: 350px
+
+.disminuir
+  height: 40%
+
+.aumentar
+  width: 100%
+  height: 100%
+
+.mover-arriba
+  margin-top: -50px
+  margin-left: -8px
+
+.mover-arriba2
+  margin-top: -110px
+  margin-left: -10px
+
+.efecto-tarjeta:hover
+  animation-name: desplazamiento
+  animation-duration: 1s
+  animation-iteration-count: 1
 
 .img-infografica-b__modal
   background-color: rgba(242, 242, 242, 1) !important
@@ -53,15 +158,105 @@
   background-position: center
   background-size: cover
 
+.bloque-texto-img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0 !important
+  bottom: 0
+  background-position: 50% !important
+  background-size: cover
+
+.bloque-texto-texto
+  position: relative
+  width: 73% !important
+
+  background-color: hsla(0,0%,100%,.95)
+
 .bloque-texto-g__texto
-    position: relative
-    width: 70%
-    left: auto
-    right: 30%
-    background-color: #fff
+  position: relative
+  width: 70% 
+  left: auto
+  right: 30%
+  background-color: #fff
 
 .nuevo-font
   font-weight: 500
+
+.fondo-azul
+  background-color: #DCE9FF !important
+
+.fondo-gris
+  background-color: #F6F6F6
+  
+.fondo-blanco
+  background-color: #fff
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #6FA2FF !important
+
+.slyder-a__bullets__item--active 
+  background-color: #6FA2FF !important
+  border-color: #6FA2FF !important
+
+.td
+  border-right: 1px solid #D9D9D9 !important
+  border-bottom: 0 !important
+  border-top: 0 !important
+  padding: 0.75em
+
+.ancho-columna1
+  width: 300px
+
+.ancho-columna2
+  width: 200px
+
+.tabla-a table
+  min-width: 500px !important
+
+.tabs-c
+  border-bottom: 0
+
+.tabs-c__tab
+  border-bottom: 4px solid #e8e8e8
+  background-color: #F2F2F2
+  margin: 10px
+  line-height: 1.2
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  border-radius: 10px
+  max-width: 190px !important
+
+.tabs-c__tab--active
+  display: flex
+  background-color: #00e5ff !important
+  border-bottom: 10px solid #00e5ff3d !important
+
+
+.tabs-c__tab--active:hover
+  background-color: #00e5ff81
+  border-bottom: 4px solid #00e5ff3b !important
+
+.tabs-c__tab--active:before 
+  border-top: 0 !important
+
+.tabs-c__tab--active
+  border-bottom: 4px solid #8a94933a    !important
+
+.m-0 
+  margin-right: 2em !important
+  justify-content: end
+
+@keyframes desplazamiento
+  0%
+    margin-top: 0
+  50%
+    margin-top: -3em  
+  100%
+    margin-top: 0
 
 @media (min-width: $bp-min-xxl) //1400px
   .reducir
@@ -94,18 +289,27 @@
     left: 0
     right: 0
     background-color: hsla(0,0%,100%,.95)
+  .mover-arriba2
+    margin-top: 0
+    margin-left: 0
 
 @media (max-width: $bp-max-sm)  //768px
   .reducir
     width: 60%
     height: 60%
     margin: 0 auto !important
+  .mover-arriba2
+    margin-top: 0
+    margin-left: 0
 
 @media (max-width: $bp-max-xs) //576px
   .reducir
     width: 60%
     height: 60%
     margin: 0 auto
+  .mover-arriba2
+    margin-top: 0
+    margin-left: 0
 
 /*@media (min-width: $bp-min-xxl) //1400px
 

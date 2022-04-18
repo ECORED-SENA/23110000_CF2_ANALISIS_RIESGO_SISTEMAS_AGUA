@@ -95,11 +95,6 @@ export default {
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
-      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -135,139 +130,154 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'USGS. (s.f.). El Ciclo del Agua, The Water Cycle, Spanish. Recuperado el 13 de 10 de 2021',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.usgs.gov/special-topic/water-science-school/science/el-ciclo-del-agua-water-cycle-spanish?qt-science_center_objects=0#qt-science_center_objects',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Análisis fisicoquímico del agua',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Procedimientos de laboratorio que se efectúan a una muestra de agua para evaluar sus características físicas, químicas o ambas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Análisis microbiológico del agua',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Procedimientos de laboratorio que se efectúan a una muestra de agua para consumo humano para evaluar la presencia o ausencia, tipo y cantidad de microorganismos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Característica',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Término usado para identificar elementos, compuestos, sustancias y microorganismos presentes en el agua para consumo humano.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Calidad del agua',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua, con el contenido de las normas que regulan la materia.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'INS',
+      significado: ' Instituto Nacional de Salud.',
     },
     {
-      termino: 'Diseña',
+      termino: 'IRABAm',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Índice de riesgo municipal por abastecimiento de agua para consumo humano.',
     },
     {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'IRCA',
+      significado: 'Índice de Riesgo de la Calidad del Agua Potable.',
     },
     {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      termino: 'MVCT',
+      significado: ' Ministerio de Vivienda, Ciudad y Territorio.',
     },
     {
-      termino: 'Bidimensional',
+      termino:
+        'Persona prestadora que suministra o distribuye agua para consumo humano (persona prestadora)',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Aquellas personas prestadoras que, acorde con la Ley 142 de 1994, suministran agua para consumo humano tratada o sin tratamiento.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Red de distribución o red pública ',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de tuberías, accesorios, estructura y equipos que conducen el agua desde el tanque de almacenamiento o planta de tratamiento hasta las acometidas domiciliarias.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Riesgo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Probabilidad de que un agente o sustancia produzca o genere una alteración a la salud como consecuencia de una exposición al mismo.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino:
+        'Sistema para la protección y control de la calidad del agua para consumo humano',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de responsables, instrumentos, procesos, medidas de seguridad, recursos, características y criterios organizados entre sí para garantizar la calidad de agua para consumo humano.',
+    },
+    {
+      termino: 'SIVICAP',
+      significado:
+        ' Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano.',
+    },
+    {
+      termino: 'SUI',
+      significado: ' Sistema Único de Información.',
+    },
+    {
+      termino: 'Tratamiento o potabilización ',
+      significado:
+        'Conjunto de operaciones y procesos que se realizan sobre el agua cruda, con el fin de modificar sus características físicas, químicas y microbiológicas, para hacerla apta para el consumo humano.',
+    },
+    {
+      termino: 'Valor aceptable',
+      significado:
+        'Establecido para la concentración de un componente o sustancia, que garantiza que el agua para consumo humano no representa riesgos conocidos a la salud.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Resolución 330 de 2017. [Ministerio de Salud y Protección Social]. Por la cual se adopta el procedimiento técnico-científico y participativo para la determinación de los servicios y tecnologías que no podrán ser financiados con recursos públicos asignados a la salud y se establecen otras disposiciones. Febrero 14 de 2017.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo11_CF002_Resolucio_330_de_2017.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Decreto 1575 de 2007. [Presidencia de La República de Colombia]. por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano. Diario Oficial 46623 de mayo 09 de 2007.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo2_CF002_Decreto_1575_de_2007.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Resolución 4716 de 2010. [Ministerio de Salud y Protección Social]. Por medio de la cual se reglamenta el parágrafo del artículo 15 del Decreto 1575 de 2007. 18 de noviembre de 2010.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo8_CF002_Resolució_ 4716_de_2010.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto:
+        'Resolución 811 de 2008. [Ministerio de la Protección Social]. Por medio de la cual se definen los lineamientos a partir de los cuales la autoridad sanitaria y las personas prestadoras, concertadamente definirán en su área de influencia los lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución. marzo 5 de 2008.',
+      tipo: 'PDF',
+      descarga: ['/downloads/Anexo10_CF002_Resolucion_811_de_2008.pdf'],
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Resolución 2115 de 2007. [Ministerio de la Protección Social Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007.',
+      tipo: 'PDF',
+      descarga: ['/downloads/Anexo4_CF002_Resolución_2115_de_2007.pdf'],
+    },
+    {
+      texto:
+        'Decreto 4741 de 2005. [Ministerio de Ambiente, Vivienda y Desarrollo Territorial].  Por el cual se reglamenta parcialmente la prevención y el manejo de los residuos o desechos peligrosos generados en el marco de la gestión integra. 30 de diciembre de 2005.',
+      tipo: 'PDF',
+      descarga: ['/downloads/Anexo5_CF002_Decreto_4741_de_2005.pdf'],
+    },
+    {
+      texto:
+        'Decreto 1076 de 2015. [Ministerio de Ambiente y Desarrollo Sostenible].  Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible a partir de la fecha de su expedición. Mayo 26 de 2015.',
+      tipo: 'PDF',
+      descarga: ['/downloads/Anexo7_CF002_Decreto_1076_de_2015.pdf'],
+    },
+    {
+      texto:
+        'Decreto 1609 de 2002. [Presidencia de la República de Colombia]. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Julio 31 de 2002.',
+      tipo: 'PDF',
+      descarga: ['/downloads/Anexo6_CF002_Decreto_1609_de_2002.pdf'],
+    },
+    {
+      texto:
+        'Organización Mundial de la Salud-OMS. (2017). Guías para la calidad del agua de consumo humano.',
+      tipo: 'PDF',
+      descarga: [
+        '/downloads/Anexo3_CF002_Guías_calidad_agua potable_OMS_2017.pdf',
+        '/downloads/ANEXO9_1.pdf',
+      ],
+    },
+    {
+      texto:
+        'Corredor, N. (2014, diciembre 10). Mapa de riesgo del agua para consumo humano, UESVALLE. [video]. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: ['https://www.youtube.com/watch?app=desktop&v=ixvr5queW6Q'],
     },
   ],
   creditos: {
@@ -280,10 +290,32 @@ export default {
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Alexander Gómez Reyes',
+        cargo: 'Instructor',
+        centro: 'Regional Valle - Centro de la Construcción',
+      },
+      {
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología Regional distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     desarrolloProducto: [
@@ -294,46 +326,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['María Natalia Maldonado Delgado'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
+        cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
