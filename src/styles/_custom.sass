@@ -51,7 +51,7 @@
   background-color: #E2FFF4
   
 .fondo11
-  background-color: #ACC9FF
+  background-color: #ACC9FF !important
 
 .fondo12
   background-color: #588DED !important
@@ -250,6 +250,15 @@
   margin-right: 2em !important
   justify-content: end
 
+.imagen-conf
+  width: 50% !important
+  height: 50% !important
+  margin: 0 auto !important
+  top: 25% !important
+  background-position: center !important
+  background-size: contain !important
+  background-repeat: no-repeat !important
+
 @keyframes desplazamiento
   0%
     margin-top: 0
@@ -292,7 +301,9 @@
   .mover-arriba2
     margin-top: 0
     margin-left: 0
-
+  .tarjeta-flip__contenedor
+    height: 350px !important
+    
 @media (max-width: $bp-max-sm)  //768px
   .reducir
     width: 60%
@@ -301,6 +312,8 @@
   .mover-arriba2
     margin-top: 0
     margin-left: 0
+  .tarjeta-flip__contenedor
+    height: 350px !important
 
 @media (max-width: $bp-max-xs) //576px
   .reducir
@@ -310,6 +323,9 @@
   .mover-arriba2
     margin-top: 0
     margin-left: 0
+  .tarjeta-flip__contenedor
+    height: 350px !important
+
 
 /*@media (min-width: $bp-min-xxl) //1400px
 

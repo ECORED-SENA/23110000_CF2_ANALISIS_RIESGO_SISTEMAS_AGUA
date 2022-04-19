@@ -8,7 +8,7 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    //--Muestras
+    //- Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
@@ -408,24 +408,24 @@
     p.mb-5 En este decreto se definen conceptos como:
 
     .row.justify-content-center.justify-content-center
-      .col-xl-4.col-sm-12.mb-4
-        .tarjeta--container.row.mb-5.tamano-tar2(data-aos="flip-right")
-          .col-md.tarjeta.borde-der.borde-izq.fondo5.p-5.me-4
-            .row.justify-content-center
-              .col-5.col-xl-4
-                figure
-                  img.mt-5(src='@/assets/curso/tema1/sustanciapeligrosa.svg')
-              
-            h3.mt-4.text-dark.text-center Residuo peligroso
-      .col-xl-4.col-sm-12
-        .tarjeta--container.row.mb-5.tamano-tar2(data-aos="flip-in")
-          .col-md.tarjeta.fondo11.p-5.borde-izq.borde-der.me-4
-            .row.justify-content-center.align-content-center
-              .col-10.col-xl-10
-                h5.text-dark.mt-4 Riesgo  
-                p.text-dark “Probabilidad o posibilidad de que el manejo, la liberación al ambiente y la exposición a un material o residuo, ocasionen efectos adversos en la salud humana y/o al ambiente”.
+      .col-xl-4.col-sm-8.mb-4
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor.fondo5
+            .tarjeta-flip__img.imagen-conf(:style="{'background-image': `url(${require('@/assets/curso/tema1/sustanciapeligrosa.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-bold Residuo peligroso
+              span “Aquel residuo o desecho que, por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, puede causar riesgos, daños o efectos no deseados, directos e indirectos, a la salud humana y el ambiente. Así mismo, se considerará residuo peligroso los empaques, envases y embalajes que estuvieron en contacto con ellos”. 
 
-    p(data-aos="flip-right") En el 
+      .col-xl-4.col-sm-8.mb-4
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
+          .tarjeta-flip__contenedor.fondo11
+            .tarjeta-flip__img.imagen-conf(:style="{'background-image': `url(${require('@/assets/curso/tema1/figura8.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              p.text-bold Riesgo
+              span “Probabilidad o posibilidad de que el manejo, la liberación al ambiente y la exposición a un material o residuo, ocasionen efectos adversos en la salud humana y/o al ambiente”.
+
+    p.mt-5(data-aos="flip-right") En el 
       span.text-bold Anexo I 
       span del decreto se establece un listado de residuos o desechos peligrosos clasificados por procesos o actividades, de acuerdo con la 
       span.text-bold Ley 253 de 1996
