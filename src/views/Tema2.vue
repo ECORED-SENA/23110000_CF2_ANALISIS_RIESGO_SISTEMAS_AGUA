@@ -328,19 +328,21 @@
     separador
     #mapas.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.3. Elaboración de mapas de riesgo
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-xl-10
         .bloque-texto-g.fondo16.p-3.p-sm-4.p-md-5.my-5(data-aos="flip-left")
           .bloque-texto-g__img.bloque-texto-img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen5.png')})`}"
           )
-          .bloque-texto-texto.p-4
+          .bloque-texto-texto.p-5
             p.mb-0 Como se estableció en el 
               span.text-bold numeral 1.3 
               span del presente 
               span.text-bold Componente Formativo, la 
               span.text-bold Resolución 4716 de 2010
               span , establece la elaboración de los mapas relacionados con el riesgo de la calidad de agua potable en las poblaciones del país.
+              br
+              br
             p Específicamente, se hace fundamental revisar, consultar y apropiar lo consignado en el 
               span.text-bold artículo 4 
               span de la 

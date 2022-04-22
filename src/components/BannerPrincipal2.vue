@@ -83,7 +83,18 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
   &__img
-    animation: scale 2s ease-in-out infinite alternate
+    //animation: scale 2s ease-in-out infinite alternate
+    @media (min-width: 1401px)
+      margin-left: 0
+      margin-bottom: -20px !important
+    @media (min-width: 1201px) and (max-width: 1400px)
+      padding-bottom: 0
+      margin-bottom: -20px !important
+      margin-left: -50px
+    @media (min-width: 992px) and (max-width: 1200px)
+      padding-bottom: 0
+      margin-bottom: -48px !important
+      margin-left: -100px
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 0//1.5rem

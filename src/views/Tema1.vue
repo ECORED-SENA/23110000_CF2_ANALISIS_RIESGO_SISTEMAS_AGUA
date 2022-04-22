@@ -27,7 +27,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade")
           h5 Figura 1
           span Interfaz de la página web del Viceministerio de Agua y Saneamiento Básico
-        img(src='@/assets/curso/tema1/imagen2.svg')(data-aos="slide-left")
+        img(src='@/assets/curso/tema1/imagen2.png')(data-aos="slide-left")
 
     p.mt-5 Con base en lo anterior, en Colombia se cuenta con la normativa relacionada con el control de los riesgos en sistemas de agua para consumo humano, la cual se presenta a continuación.
     separador
@@ -143,7 +143,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.fondo3.text-white--hover.p-4.tamano
+        .tarjeta--boton.fondo3.p-4.tamano
           .row.justify-content-center.mb-3
             .col-7(data-aos="flip-down")
               figure
@@ -155,7 +155,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.fondo4.text-white--hover.p-4.tamano
+        .tarjeta--boton.fondo3.p-4.tamano
           .row.justify-content-center.mb-3
             .col-7(data-aos="flip-right")
               figure
@@ -167,7 +167,7 @@
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
-        .tarjeta--boton.fondo3.text-white--hover.p-4.tamano
+        .tarjeta--boton.fondo3.p-4.tamano
           .row.justify-content-center.mb-3
             .col-7(data-aos="zoom-up")
               figure
@@ -466,9 +466,9 @@
             span , disponible en las bases de datos del 
             span.text-bold Sistema de Bibliotecas del SENA 
           
-          a.boton.color-acento-botones.ms-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
+          a.boton.color-acento-botones.ms-4(:href="('https://biblioteca.sena.edu.co/paginas/bases.html')" target="_blank" type="text/html")
+            span Consultar
+            i.fas.fa-search
         .col-8.col-sm-6.col-md-3.mb-4.mb-md-0
           img.aumentar.mover-arriba(src="@/assets/componentes/tema1/imagen2.png")  
     .row.justify-content-center.align-items-center
