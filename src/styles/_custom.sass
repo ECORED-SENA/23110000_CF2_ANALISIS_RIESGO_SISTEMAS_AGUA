@@ -14,13 +14,13 @@
   background-color: #A5C6FF !important
 
 .fondo3:hover
-  background-color: #ffab1d !important
+  background-color: #00E5FF !important
 
 .fondo4
   background-color: #00E5FF !important
 
 .fondo4:hover
-  background-color: #727997 !important
+  background-color: #A5C6FF  !important
 
 .fondo5
   background-color: #DCE9FF !important
@@ -61,6 +61,21 @@
 
 .fondo14
   background-color: #F3F9FF
+
+.fondo15
+  background-color: #e2fff485
+
+.fondo16
+  background-color: #A4F2D5 !important
+
+.paddCelTop
+  padding-top: 0
+
+.ancho-img
+  max-width: 400px
+  max-height: 267px
+  margin: 0 auto
+  margin-top: 2em
 
 .tarjeta-avatar > img 
   position: absolute
@@ -124,8 +139,9 @@
   height: 100%
 
 .mover-arriba
-  margin-top: -50px
+  margin-top: -70px
   margin-left: -8px
+  margin-bottom: -16px
 
 .mover-arriba2
   margin-top: -110px
@@ -259,6 +275,9 @@
   background-size: contain !important
   background-repeat: no-repeat !important
 
+.lista-ol--cuadro__vineta span
+  color: #12263F !important
+
 @keyframes desplazamiento
   0%
     margin-top: 0
@@ -272,17 +291,24 @@
     width: 80%
     height: 80%
     margin: 2em 0 0 2em
+  .margen-izq
+    margin-left: 2.5em
 
 @media (max-width: $bp-max-xl) //1400px
   .reducir
     width: 95%
     height: 95%
     margin: 2em 0 0 2em
+  .margen-izq
+    margin-left: 2em
+
 @media (max-width: $bp-max-lg) //1200px
   .reducir
     width: 50%
     height: 50%
     margin: 2em 0 0 2em
+  .margen-izq
+    margin-left: 1.6em
 
 @media (max-width: $bp-max-md) //992px
   .reducir
@@ -303,7 +329,10 @@
     margin-left: 0
   .tarjeta-flip__contenedor
     height: 350px !important
-    
+  .margen-izq
+    margin-left: 1em
+    margin-right: 1em
+
 @media (max-width: $bp-max-sm)  //768px
   .reducir
     width: 60%
@@ -314,6 +343,8 @@
     margin-left: 0
   .tarjeta-flip__contenedor
     height: 350px !important
+  .margen-izq
+    margin-left: 1em
 
 @media (max-width: $bp-max-xs) //576px
   .reducir
@@ -325,6 +356,11 @@
     margin-left: 0
   .tarjeta-flip__contenedor
     height: 350px !important
+  .paddCelTop
+    padding: 0.8em !important
+  .margen-izq
+    margin-left: 1em
+
 
 
 /*@media (min-width: $bp-min-xxl) //1400px

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Diagnóstico de riesgos en sistemas de tratamiento.',
+    componenteFormativo: 'Diagnóstico de riesgos en sistemas de tratamiento',
     descripcionCurso:
       'En Colombia existe normativa relacionada con el control de la calidad del agua potable que consume la población, que sirve de base para el diagnóstico de la gestión de los riesgos asociados, teniendo en cuenta el cálculo de indicadores de riesgo en la calidad del agua y a la elaboración de mapas de riesgo que se convierten en herramientas útiles en dicho diagnóstico.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),

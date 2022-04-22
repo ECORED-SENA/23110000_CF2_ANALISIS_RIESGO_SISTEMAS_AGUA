@@ -83,10 +83,10 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
   &__img
-    animation: scale 1s ease-in-out infinite alternate
+    animation: scale 2s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
-      padding-bottom: 1.5rem
+      padding-bottom: 0//1.5rem
       @media (min-width: $bp-min-sm)
         padding-bottom: 3rem!important
     @else if $banner-principal-img-y == 'abajo'
@@ -97,10 +97,10 @@ export default {
     @else
       align-self: center
       padding-top: 1.5rem
-      padding-bottom: 1.5rem
+      padding-bottom: 0 !important //1.5rem
       @media (min-width: $bp-min-sm)
-        padding-top: 3rem!important
-        padding-bottom: 3rem!important
+        padding-top: 3rem !important
+        padding-bottom: 1.25rem !important //3em !important
 .imagen_flotante
   &_1
     animation: float1 3s ease-in-out infinite alternate

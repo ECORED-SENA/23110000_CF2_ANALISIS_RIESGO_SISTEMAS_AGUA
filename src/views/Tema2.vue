@@ -15,6 +15,7 @@
           span y elaborar el mapa de riesgo.
       .col-xl-3.col-5(data-aos="flip-up")
         img(src='@/assets/curso/tema2/figura1.svg')
+    separador
     #principios.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.1. Principios básicos de muestreo de agua potable
     p.my-5(data-aos="flip-down") En este apartado se debe tener en cuenta lo establecido en el “Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio”, elaborado por el 
@@ -40,12 +41,12 @@
               img(src='@/assets/curso/tema2/imagen3.png')
               p.mt-5.mx-4 Aplicar procedimientos de muestreo de sistemas individuales como los de las viviendas rurales dispersas que tienen sus propios sistemas de abastecimiento y a los suministros de agua potable obtenidos de fuentes no continuas de agua en bloque como carro tanques, aviones, trenes, barcos, etc.
 
-    .row.justify-content-center.my-5.align-items-center
+    .row.justify-content-center.mt-5.align-items-center
       .col-xl-8.col-sm-12(data-aos="fade-left")
         p El campo de aplicación del manual incluye “los procedimientos para la toma de muestras en la red de distribución, en la red pública o el sistema de distribución, definido como el conjunto de tuberías, accesorios, estructuras y equipos que conducen el agua desde el tanque de almacenamiento o planta de tratamiento hasta las acometidas domiciliarias. Es en la red de distribución donde la Persona Prestadora debe controlar la calidad del agua para consumo humano y las Direcciones departamentales, distritales y municipales de salud realizar sus acciones de vigilancia de esta calidad, en cumplimiento de su responsabilidad como autoridad sanitaria” (Instituto Nacional de Salud-INS, 2011).
       .col-xl-4.col-sm-8(data-aos="flip-up")
         img(src='@/assets/curso/tema2/imagen4.png')
-
+    separador
     #calculo.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.2. Cálculo del Índice de Riesgo de la Calidad del Agua Potable (IRCA)
 
@@ -200,10 +201,14 @@
     p.mb-5 De acuerdo con los puntajes anteriores:
 
     .row
-      .col-12.fondo14
+      .col-xl-12.fondo14
         .row
-          .col-lg-6(data-aos="flip-left")
-            p.my-5 En el artículo 14 de la resolución 2115, se establece el procedimiento de cálculo del IRCA, de acuerdo con las siguientes ecuaciones:
+          .col-xl-7.col-lg-6.ps-5(data-aos="flip-left")
+            p.my-5.margen-izq En el 
+              span.text-bold artículo 14 de la resolución 2115
+              span , se establece el procedimiento de cálculo del 
+              span.text-bold IRCA
+              span , de acuerdo con las siguientes ecuaciones:
         .row.justify-content-end
           .col-lg-8(data-aos="zoom-in")
             TabsC.mover-arriba2
@@ -216,7 +221,7 @@
                   .col-md-12.mb-4.mb-md-0(data-aos="flip-right")
                     img(src='@/assets/curso/tema2/formula2.svg')
         .row.justify-content-center.my-5
-          .col-xl-10(data-aos="zoom-left")
+          .col-xl-10.col-md-10(data-aos="zoom-left")
             p Si el cálculo del 
               span.text-bold IRCA
               span  arroja un 
@@ -239,7 +244,18 @@
               span , teniendo en cuenta los plazos estipulados en el 
               span.text-bold artículo 34° 
               span de esta resolución”.
-
+    p.my-5 El 
+      span.text-bold artículo 15 de la resolución 2115 
+      span establece la clasificación del nivel de riesgo del agua suministrada para el consumo humano por la persona prestadora. En la 
+      span.text-bold  tabla 2 
+      span se presenta dicho nivel de riesgo, así como las acciones que debe realizar la autoridad sanitaria competente.
+    .titulo-sexto.color-acento-contenido(data-aos="fade")
+      h5 tabla 2
+      span Clasificación del nivel de riesgo en salud según el 
+      span.text-bold IRCA 
+      span por muestra y el 
+      span.text-bold IRCA 
+      span mensual y acciones que deben adelantarse  
     .row.justify-content-center
       .col-md-12.col-xl-12(data-aos="fade-left")
         .tabla-a.color-acento-contenido.my-5
@@ -305,29 +321,31 @@
           span de la 
           span.text-bold Superintendencia de Servicios Públicos Domiciliarios
 
-    .cajon.color-primario.p-4.my-5
+    .cajon.color-primario.p-4.mt-5
       .row.justify-content-center.align-items-center
         .col-xl-12.col-md-12.p-4(data-aos="flip-down")
           p También establece que “la autoridad sanitaria de los municipios categoría 1, 2 y 3 calculará los IRCA provenientes de los resultados de las muestras de vigilancia y los reportará a la autoridad sanitaria departamental de su jurisdicción. Los IRCA de los municipios categoría 4, 5 y 6 serán calculados por la autoridad sanitaria departamental. En ambos casos, la autoridad sanitaria departamental remitirá esta información al subsistema de vigilancia de la calidad del agua – SIVICAP del Instituto Nacional de Salud”.
+    separador
     #mapas.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.3. Elaboración de mapas de riesgo
-
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.my-5(data-aos="flip-left")
-      .bloque-texto-g__img.bloque-texto-img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen5.png')})`}"
-      )
-      .bloque-texto-texto.p-4
-        p.mb-0 Como se estableció en el 
-          span.text-bold numeral 1.3 
-          span del presente 
-          span.text-bold Componente Formativo, la 
-          span.text-bold Resolución 4716 de 2010
-          span , establece la elaboración de los mapas relacionados con el riesgo de la calidad de agua potable en las poblaciones del país.
-        p Específicamente, se hace fundamental revisar, consultar y apropiar lo consignado en el 
-          span.text-bold artículo 4 
-          span de la 
-          span.text-bold resolución 4716
-          span , ubicada en la sección material complementario, en el cual se establece que, para la recopilación de la información del mapa de riesgo, la autoridad sanitaria debe realizar las acciones que se presentan en dicho artículo.
+    .row.justify-content-center
+      .col-xl-10
+        .bloque-texto-g.fondo16.p-3.p-sm-4.p-md-5.my-5(data-aos="flip-left")
+          .bloque-texto-g__img.bloque-texto-img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen5.png')})`}"
+          )
+          .bloque-texto-texto.p-4
+            p.mb-0 Como se estableció en el 
+              span.text-bold numeral 1.3 
+              span del presente 
+              span.text-bold Componente Formativo, la 
+              span.text-bold Resolución 4716 de 2010
+              span , establece la elaboración de los mapas relacionados con el riesgo de la calidad de agua potable en las poblaciones del país.
+            p Específicamente, se hace fundamental revisar, consultar y apropiar lo consignado en el 
+              span.text-bold artículo 4 
+              span de la 
+              span.text-bold resolución 4716
+              span , ubicada en la sección material complementario, en el cual se establece que, para la recopilación de la información del mapa de riesgo, la autoridad sanitaria debe realizar las acciones que se presentan en dicho artículo.
     p De igual manera, es importante realizar la consulta del 
       span.text-bold artículo 7 de la resolución 4716
       span , en donde se establecen las frecuencias y número de muestras de agua para control y vigilancia de las características físicas, químicas y microbiológicas definidas en el mapa de riesgo de la calidad del agua para consumo humano.

@@ -29,15 +29,15 @@
           span Interfaz de la página web del Viceministerio de Agua y Saneamiento Básico
         img(src='@/assets/curso/tema1/imagen2.svg')(data-aos="slide-left")
 
-    p.my-5 Con base en lo anterior, en Colombia se cuenta con la normativa relacionada con el control de los riesgos en sistemas de agua para consumo humano, la cual se presenta a continuación.
-
+    p.mt-5 Con base en lo anterior, en Colombia se cuenta con la normativa relacionada con el control de los riesgos en sistemas de agua para consumo humano, la cual se presenta a continuación.
+    separador
     #res330.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.1. Resolución 330 de 2017
     p.mt-5.mb-3 Una de las funciones de los ministerios del país es “señalar los requisitos técnicos que deben cumplir las obras, equipos y procedimientos que utilicen las empresas de servicios públicos del sector, cuando la comisión respectiva haya resuelto por vía general que ese señalamiento es realmente necesario para garantizar la calidad del servicio, y que no implica restricción indebida de la competencia”, de acuerdo con el 
       span.text-bold numeral 67.1 de la Ley 142 de 1994
       span , por la cual se establece el régimen de los servicios públicos domiciliarios y se dictan otras disposiciones.
     p-mb-5 Teniendo en cuenta esta premisa:
-    .row.fondo1.mover-izq.mover-der.mt-4
+    .row.mt-4.fondo1
       .col-12.mt-4
         .row.justify-content-center.py-5
           .col-12(data-aos="slide-left")
@@ -49,7 +49,7 @@
                 ol.lista-ol--cuadro.lista-ol--separador.ms-5
                   li 
                     .lista-ol--cuadro__vineta
-                      span 1
+                      span.color-nro 1
                     | Planeación
                   li 
                     .lista-ol--cuadro__vineta
@@ -65,20 +65,20 @@
                     | Puesta en marcha
                   li 
                     .lista-ol--cuadro__vineta
-                      span 4
+                      span 5
                     | Operación
                   li 
                     .lista-ol--cuadro__vineta
-                      span 4
+                      span 6
                     | Mantenimiento
                   li 
                     .lista-ol--cuadro__vineta
-                      span 4
+                      span 7
                     | Rehabilitación
                 p.my-4.ms-5.me-3 Específicamente dentro de la Resolución 330 de 2017, el artículo 106 define el nivel de riesgo sanitario de sistemas de abastecimiento de agua destinada al consumo humano. La norma establece textualmente:
               .col-xl-6.col-sm-12(data-aos="slide-down")
                 img.reducir(src='@/assets/curso/tema1/figura1.svg')
-                p.mb-5.ms-5.me-3 Las personas prestadoras deberán definir los riesgos sanitarios presentes y potenciales hacia el futuro en la microcuenca de la fuente de abastecimiento, de acuerdo con la siguiente información:
+                p.mb-5.ms-5.me-3.text-bold.mt-4 Las personas prestadoras deberán definir los riesgos sanitarios presentes y potenciales hacia el futuro en la microcuenca de la fuente de abastecimiento, de acuerdo con la siguiente información:
 
         .row.justify-content-center
           .col-xl-8.col-sm-12(data-aos="flip-left")
@@ -107,8 +107,8 @@
                 p Clasificación de riesgo en salud por índice de riesgo municipal por abastecimiento de agua para consumo humano (IRABAm) según artículos 17, 18 y 19 de la resolución conjunta número 2115 de 2007 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial, o aquella que la adicione, modifique o sustituya.
               div(x="97.5%" y="32.25%" tooltip="Click para leer..." numero="+")
                 p Recopilación de información para elaboración de los mapas de riesgo, según el artículo 4° de la resolución conjunta número 4716 de 2010 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial”.
-
-    #dec1575.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+    separador
+    #dec1575.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.2 Decreto 1575 de 2007 y Resolución 2115 de 2007
     p.mb-5 Teniendo en cuenta la calidad del agua entregada a la población, el 
       span.text-bold Decreto 1575 de 2007 
@@ -206,12 +206,12 @@
 
     .row
       .col-xl-12
-        .cajon.color-secundario.p-4.mb-4(data-aos="flip-right")
-          .row.justify-content-center
+        .cajon.color-secundario.py-3.px-5.mb-4(data-aos="flip-right")
+          .row.justify-content-center.align-items-center
             .col-xl-1.col-md-4.col-sm-4.col-5
-              img.mb-3(src='@/assets/curso/tema1/figura4.svg')
+              img(src='@/assets/curso/tema1/figura4.svg')
             .col-xl-11.col-md-12
-              p Dentro del 
+              p.mt-2 Dentro del 
                 span.text-bold  artículo 15 
                 span del 
                 span.text-bold decreto 1575 
@@ -227,62 +227,62 @@
     .row
       .col-xl-6.col-sm-12(data-aos="flip-left")
         ul.lista-ul--color
-          li 
+          li.fondo15.pt-3.ps-3
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 2
               span.nuevo-font . Color aparente, olor y sabor, turbiedad 
-          li 
+          li.fondo15.pt-3.ps-3
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 3
               span.nuevo-font . Conductividad
-          li 
+          li.fondo15.pt-3.ps-3 
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 4
               span.nuevo-font . pH
-          li 
+          li.fondo15.pt-3.ps-3 
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 5
               span.nuevo-font . Características químicas con efecto adverso en la salud
-          li 
+          li.fondo15.pt-3.ps-3 
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 6
               span.nuevo-font . Características químicas con implicaciones sobre salud humana
       .col-xl-6.col-sm-12(data-aos="flip-right")
         ul.lista-ul--color
-          li 
+          li.fondo15.pt-2.px-3.pb-0 
             i.fas.fa-microscope.color-micro
-            p.text-bold Artículo 7
+            p.text-bold.mb-0 Artículo 7
               span.nuevo-font . Características químicas con mayores consecuencias económicas e indirectas sobre la salud humana
-          li 
+          li.fondo15.pt-2.px-3.pb-0 
             i.fas.fa-microscope.color-micro
-            p.text-bold Artículo 8
+            p.text-bold.mb-0 Artículo 8
               span.nuevo-font . Características químicas en relación con plaguicidas y otras sustancias
 
-          li 
+          li.fondo15.pt-2.px-3.pb-0 
             i.fas.fa-microscope.color-micro
-            p.text-bold Artículo 9
+            p.text-bold.mb-0 Artículo 9
               span.nuevo-font . Características químicas de otras sustancias del proceso de potabilización
-          li 
+          li.fondo15.pt-3.px-3.pb-0
             i.fas.fa-microscope.color-micro
             p.text-bold Artículo 11
               span.nuevo-font . Características microbiológicas
 
     .tarjeta.fondo-azul.p-4.mb-5(data-aos="zoom-up")
       SlyderA(tipo="b")
-        .row.align-items-center
+        .row.align-items-center.justify-content-center
           .col-md-6
             figure
-              img.mb-3(src='@/assets/template/tema1/imagen1.png', alt='Texto que describa la imagen')
+              img.mb-3.ancho-img(src='@/assets/template/tema1/imagen1.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            p Con un adecuado control de las anteriores características por parte de las autoridades sanitarias y de las empresas prestadoras, encargadas de la operación de sistemas de tratamiento y distribución de agua potable, se esperará que los 
+            p.me-3.ms-0 Con un adecuado control de las anteriores características por parte de las autoridades sanitarias y de las empresas prestadoras, encargadas de la operación de sistemas de tratamiento y distribución de agua potable, se esperará que los 
               span.text-bold factores que ponen en riesgo la calidad de agua sean minimizados.
 
         .row.align-items-center
           .col-md-6
             figure
-              img.mb-3(src='@/assets/template/tema1/imagen2.png')
+              img.mb-3.ancho-img(src='@/assets/template/tema1/imagen2.png')
           .col-md-6.mb-4.mb-md-0
-            p Otro componente fundamental de la 
+            p.me-3.ms-0.mt-5 Otro componente fundamental de la 
               span.text-bold resolución 2115 
               span , está establecido en los 
               span.text-bold  artículos 21 y 22 del capítulo V
@@ -293,9 +293,9 @@
         .row.align-items-center
           .col-md-6
             figure
-              img.mb-3(src='@/assets/template/tema1/imagen3.png')
+              img.mb-3.ancho-img(src='@/assets/template/tema1/imagen3.png')
           .col-md-6.mb-4.mb-md-0
-            p Es necesario consultar y tener en cuenta lo establecido en el 
+            p.mt-3.me-3.ms-0 Es necesario consultar y tener en cuenta lo establecido en el 
               span.text-bold parágrafo 1 del artículo 21 de la resolución 2115
               span , en el cual se establece que en el caso de emplear sales metálicas de hierro y aluminio como coagulante deben cumplirse las frecuencias establecidas en el 
               span.text-bold cuadro 11 de la resolución 2115
@@ -303,17 +303,18 @@
               span.text-bold parágrafo 1 del artículo 21 presente en la resolución 2115.
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p La autoridad sanitaria también debe ejercer vigilancia de la calidad física, química y microbiológica del agua para consumo humano, de acuerdo con lo establecido en los 
+            p.ms-2 La autoridad sanitaria también debe ejercer vigilancia de la calidad física, química y microbiológica del agua para consumo humano, de acuerdo con lo establecido en los 
               span.text-bold artículos 24, 25, 26 y 27 de la Resolución 2115 de 2007
               span , según lo presentado en la siguiente tabla:
           .col-md-6
             figure
-              img(src='@/assets/template/tema1/tabla.svg')
+              img.me-2(src='@/assets/template/tema1/tabla.svg')
               figcaption.fondo5
                 p.text-bold Nota. 
                   span.nuevo-font Adaptado de la 
                   span.text-bold Resolución 2115 de 2007, artículos 24, 25, 26 y 27.
-    #res4716.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+    separador
+    #res4716.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3 Resolución 4716 de 2010
     .row.justify-content-center.align-items-center
       .col-xl-7.col-sm-12(data-aos="fade-right")
@@ -336,7 +337,7 @@
             span -, con las personas prestadoras que suministran o distribuyen agua para consumo humano y con la administración municipal; la identificación de los factores de riesgo y las características físicas, químicas y microbiológicas de las fuentes de agua aferentes a las captaciones de acueducto que puedan afectar la salud humana, contribuyendo con ello a las acciones de inspección, vigilancia y control por parte de las autoridades competentes”. 
         .col-xl-1.col-md-4.col-sm-4.col-5(data-aos="flip-down")
           img(src='@/assets/curso/tema1/figura4.svg')
-    .row.justify-content-center.my-4
+    .row.justify-content-center.mt-4
       .col-xl-4.col-sm-8(data-aos="flip-right")
         img.mb-4(src='@/assets/curso/tema1/imagen4.png')
       .col-xl-8.col-sm-12(data-aos="flip-up")
@@ -349,8 +350,8 @@
             span establece en su 
             span.text-bold artículo 1 
             span que su objeto es “establecer las condiciones, recursos y obligaciones mínimas que deben cumplir las autoridades sanitaria departamental, distrital y municipal categoría especial, 1, 2 y 3 y ambiental competente, para elaborar los mapas de riesgo de la calidad del agua para consumo humano”.
-
-    #res811.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+    separador
+    #res811.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.4 Resolución 811 de 2008
 
     .cajon.color-primario.p-4.my-5(data-aos="fade-right")
@@ -390,8 +391,8 @@
             p.text-dark(data-aos="fade-in") El 
               span.text-bold.text-dark artículo 3 
               span.text-dark establece el número mínimo de puntos de muestreo en la red de distribución, de acuerdo con el número de habitantes de la población atendida por el sistema, el cual es muy importante para consultarlo dentro de la norma.
-
-    #dec4741.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+    separador
+    #dec4741.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.5 Decreto 4741 de 2005 (compilado en el Decreto 1076 de 2015)
 
     .row.justify-content-center.align-items-center
@@ -434,10 +435,11 @@
     p(data-aos="flip-in") Es importante consultar el 
       span.text-bold Anexo III del decreto 4741 
       span ubicado en la sección material complementario, en el cual se definen las características de peligrosidad de los residuos.
-    #dec1609.titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+    separador
+    #dec1609.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.6 Decreto 1609 de 2002
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.my-5(data-aos="flip-right")
+    .bloque-texto-g.fondo16.p-3.p-sm-4.p-md-5.my-5(data-aos="flip-right")
       .bloque-texto-g__img.bloque-texto-img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/figura7.svg')})`}"
       )
@@ -456,10 +458,10 @@
           span , “establecer los requisitos técnicos y de seguridad para el manejo y transporte de mercancías peligrosas por carretera en vehículos automotores en todo el territorio nacional, con el fin de minimizar los riesgos, garantizar la seguridad y proteger la vida y el medio ambiente, de acuerdo con las definiciones y clasificaciones establecidas en la 
           span.text-bold Norma Técnica Colombiana NTC 1692”. 
 
-    .tarjeta.fondo12.mb-5.disminuir.ps-4
+    .tarjeta.fondo12.mb-5.disminuir.paddCelTop.p-3
       .row.justify-content-around.align-items-center(data-aos="flip-right")
         .col-md.col-lg-9
-          p.mb-4.text-white.ms-4.mt-2 Con el fin de aprender más de esta norma técnica se invita al aprendiza consultarla en la base de datos del 
+          p.mb-4.text-white.ms-4.mt-2 Con el fin de aprender más de esta norma técnica se invita al aprendiz a consultarla en la base de datos del 
             span.text-bold ICONTEC
             span , disponible en las bases de datos del 
             span.text-bold Sistema de Bibliotecas del SENA 
@@ -468,15 +470,15 @@
             span Descargar
             i.fas.fa-file-download
         .col-8.col-sm-6.col-md-3.mb-4.mb-md-0
-          img.aumentar.mover-arriba(src="@/assets/componentes/tema1/imagen1.svg")  
-    .row.justify-content-center.align-items-center(data-aos="flip-left")
+          img.aumentar.mover-arriba(src="@/assets/componentes/tema1/imagen2.png")  
+    .row.justify-content-center.align-items-center
       .col-xl-5.col-12
-        img.mb-4(src="@/assets/curso/tema1/imagen5.png")  
+        img.mb-4(src="@/assets/curso/tema1/imagen5.png")(data-aos="flip-left")
       .col-xl-7.col-12
-        p Su alcance y aplicación aplica en el 
+        p(data-aos="flip-left") Su alcance y aplicación aplica en el 
           span.text-bold artículo 2
           span , “al transporte terrestre y manejo de mercancías peligrosas, los cuales comprenden todas las operaciones y condiciones relacionadas con la movilización de estos productos, la seguridad en los envases y embalajes, la preparación, envío, carga, segregación, transbordo, trasiego, almacenamiento en tránsito descarga y recepción en el destino final. El manejo y transporte se considera tanto en condiciones normales, como las ocurridas en accidentes que se produzcan durante el traslado y almacenamiento en tránsito”. 
-        p En el 
+        p(data-aos="flip-left") En el 
           span.text-bold artículo 4 
           span establece el rotulado y etiquetado de embalajes y envases, las pruebas de ensayo, marcado y requisitos de los embalajes y envases y los requisitos generales para el transporte por carretera de mercancías peligrosas. 
 
