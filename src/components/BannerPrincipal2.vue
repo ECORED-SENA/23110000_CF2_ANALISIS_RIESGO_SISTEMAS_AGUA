@@ -66,12 +66,20 @@ export default {
     margin-bottom: 20px
   &__componente
     margin-bottom: 20px
+    @media (min-width: 992px) and (max-width: 1200px)
+      margin-left: -50px
     h1
       line-height: 1.1em
       @media (max-width: $bp-max-xs)
         font-size: 2em
   &__descripcion
     margin-bottom: 20px
+    @media (min-width: 992px) and (max-width: 1200px)
+      margin-left: -50px
+      margin-right: 50px
+  &__accion
+    @media (min-width: 992px) and (max-width: 1200px)
+      margin-left: -50px
   &__row
     @if $banner-principal-img-x == 'derecha'
       justify-content: space-between
@@ -90,11 +98,11 @@ export default {
     @media (min-width: 1201px) and (max-width: 1400px)
       padding-bottom: 0
       margin-bottom: -20px !important
-      margin-left: -50px
+      margin-left: -100px
     @media (min-width: 992px) and (max-width: 1200px)
       padding-bottom: 0
       margin-bottom: -48px !important
-      margin-left: -100px
+      margin-left: -120px
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 0//1.5rem
