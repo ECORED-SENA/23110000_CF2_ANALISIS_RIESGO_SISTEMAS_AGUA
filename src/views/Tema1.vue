@@ -331,7 +331,7 @@
       .row.justify-content-center.align-items-center
         .col-xl-11.col-md-12(data-aos="zoom-up")
           p El 
-            span.text-bold artículo 15 de la resolución 4716 de 2010 
+            span.text-bold artículo 15 del decreto 1575 de 2007 
             span establece que dichas autoridades “deberán coordinar con los comités de vigilancia epidemiológica departamentales, distritales y municipales - 
             span.text-bold COVES 
             span -, con las personas prestadoras que suministran o distribuyen agua para consumo humano y con la administración municipal; la identificación de los factores de riesgo y las características físicas, químicas y microbiológicas de las fuentes de agua aferentes a las captaciones de acueducto que puedan afectar la salud humana, contribuyendo con ello a las acciones de inspección, vigilancia y control por parte de las autoridades competentes”. 
