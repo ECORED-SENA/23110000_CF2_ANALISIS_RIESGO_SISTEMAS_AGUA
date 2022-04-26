@@ -343,14 +343,20 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ['Jaime Enrique Díaz Reyes '],
+        nombre: 'Jaime Enrique Díaz Reyes ',
         cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ['Laura Ximena Hurtado Villalba '],
+        nombre: 'Laura Ximena Hurtado Villalba',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
