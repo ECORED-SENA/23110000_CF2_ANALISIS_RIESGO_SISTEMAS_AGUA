@@ -11,7 +11,7 @@
     p.my-5 Bienvenido al componente formativo Diagnóstico de riesgos en sistemas de tratamiento. A continuación se conocerán los temas que se tratarán a lo largo del mismo. ¡Muchos éxitos en el proceso de aprendizaje!
     figure.mb-5
       .video(data-aos="fade-in")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/k4PAstIgbqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
