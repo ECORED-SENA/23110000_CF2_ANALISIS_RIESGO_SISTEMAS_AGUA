@@ -17,7 +17,7 @@
       .col-xl-7.col-sm-12(data-aos="slide-left")
         p.mb-5 En materia de lineamientos, políticas y normas legales relacionadas con la prestación del servicio público domiciliario de acueducto, el cual tiene que ver con el tratamiento y la distribución de agua destinada al consumo humano, el 
           span.text-bold Ministerio de Vivienda, Ciudad y Territorio (MVCT), a través del Viceministerio de Agua y Saneamiento Básico
-          span , es la entidad encargada de propiciar el desarrollo sostenible, formulando y adoptando políticas, programas, proyectos y la regulación para el acceso de la población a agua potable y saneamiento básico , así como expidiendo la reglamentación relacionada, formulando programas y apoyando financieramente a los municipios de país que no pueda atender las inversiones que se requieran en el tema de agua y saneamiento, 
+          span , es la entidad encargada de propiciar el desarrollo sostenible, formulando y adoptando políticas, programas, proyectos y la regulación para el acceso de la población a agua potable y saneamiento básico, así como expidiendo la reglamentación relacionada, formulando programas y apoyando financieramente a los municipios del país que no puedan atender las inversiones que se requieran en el tema de agua y saneamiento, 
           span.text-bold ver figura 1 (Ministerio de Vivienda, Ciudad y Territorio, s.f.).
       .col-xl-5.col-sm-6(data-aos="slide-right")
         img(src='@/assets/curso/tema1/imagen1.png')
@@ -41,7 +41,7 @@
       .col-12.mt-4
         .row.justify-content-center.py-5
           .col-12(data-aos="slide-left")
-            p.ms-5.me-3 El MVCT expidió en el año 2017 el reglamento técnico del sector de agua potable y saneamiento Básico-RAS. Dicha resolución establece los requisitos técnicos que se deben tener en cuenta en los diseños, las obras y procedimientos complementarios de proyectos relacionados con el sector de agua potable y saneamiento básico, adelantados por las entidades que prestan los servicios públicos municipales de acueducto, alcantarillado y aseo.
+            p.ms-5.me-3 El MVCT expidió en el año 2017 el Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico-RAS. Dicha resolución establece los requisitos técnicos que se deben tener en cuenta en los diseños, las obras y procedimientos complementarios de proyectos relacionados con el sector de agua potable y saneamiento básico, adelantados por las entidades que prestan los servicios públicos municipales de acueducto, alcantarillado y aseo.
             p.ms-5.me-3 Establece la reglamentación en la infraestructura de los sistemas de agua y saneamiento de las directrices que se deben cumplir en las etapas de:
 
             .row.justify-content-center.align-items-center
@@ -106,7 +106,7 @@
               div(x="84.1%" y="76%" tooltip="Click para leer...")
                 p Clasificación de riesgo en salud por índice de riesgo municipal por abastecimiento de agua para consumo humano (IRABAm) según artículos 17, 18 y 19 de la resolución conjunta número 2115 de 2007 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial, o aquella que la adicione, modifique o sustituya.
               div(x="97.5%" y="32.25%" tooltip="Click para leer..." numero="+")
-                p Recopilación de información para elaboración de los mapas de riesgo, según el artículo 4° de la resolución conjunta número 4716 de 2010 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial”.
+                p Recopilación de información para elaboración de los mapas de riesgo, según el artículo 4° de la resolución conjunta número 4716 de 2010 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial.
     separador
     #dec1575.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.2 Decreto 1575 de 2007 y Resolución 2115 de 2007
@@ -161,7 +161,7 @@
               figure
                 img(src='@/assets/componentes/tema1/lupa.svg')
 
-          p Coordinación del programa interlaboratorio de control de calidad del agua potable - PICCAP.
+          p Coordinación del Programa Interlaboratorio de Control de Calidad del Agua Potable PICCAP.
 
       .col-12.col-sm-6.col-lg-4.col-xl-3.mb-4.mb-sm-0(data-aos="slide-right")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -173,7 +173,7 @@
               figure
                 img(src='@/assets/componentes/tema1/celulas.svg')
 
-          p Inscripción en el programa interlaboratorio de control de calidad para agua potable - PICCAP, a laboratorios pertenecientes a la red de salud pública y los laboratorios privados que lo soliciten (nacionales o extranjeros) que lleven a cabo análisis físicos, químicos o microbiológicos de agua para consumo humano.
+          p Inscripción en el Programa Interlaboratorio de Control de Calidad para Agua Potable PICCAP, a laboratorios pertenecientes a la red de salud pública y los laboratorios privados que lo soliciten (nacionales o extranjeros) que lleven a cabo análisis físicos, químicos o microbiológicos de agua para consumo humano.
     .row.align-items-center.justify-content-center.my-5
       .col-xl-7.col-12(data-aos="flip-right")
         p.mb-4 Es así como el 
@@ -201,7 +201,7 @@
     p.mb-5(data-aos="flip-right") Otro aspecto relevante que se establece en el decreto tiene que ver con los indicadores y herramientas necesarias para la vigilancia de los factores de riesgo de calidad de agua suministrada en el sistema, estableciendo en el 
       span.text-bold artículo 12 
       span el índice de riesgo de la calidad del agua para consumo humano (
-      span.text-bold  IRCA
+      span.text-bold IRCA
       span ), el cual se define como el grado de riesgo de ocurrencia de enfermedades relacionadas con el incumplimiento de características físico-químicas y microbiológicas del agua en redes de distribución de agua potable. 
 
     .row
@@ -286,7 +286,7 @@
               span.text-bold resolución 2115 
               span , está establecido en los 
               span.text-bold  artículos 21 y 22 del capítulo V
-              span , donde se relacionan las frecuencias y número de muestras para el control de la calidad fisicoquímica del agua se invita al aprendiz a consultar el 
+              span , donde se relacionan las frecuencias y número de muestras para el control de la calidad fisicoquímica del agua, se invita al aprendiz a consultar el 
               span.text-bold cuadro 11 del artículo 21 de la resolución 2115 
               span ubicada en la sección de material complementario así como las frecuencias y número de muestras de control de la calidad microbiológica del agua ubicadas en el 
               span.text-bold cuadro 12 del artículo 22 de la resolución 2115.
@@ -332,9 +332,9 @@
         .col-xl-11.col-md-12(data-aos="zoom-up")
           p El 
             span.text-bold artículo 15 del decreto 1575 de 2007 
-            span establece que dichas autoridades “deberán coordinar con los comités de vigilancia epidemiológica departamentales, distritales y municipales - 
-            span.text-bold COVES 
-            span -, con las personas prestadoras que suministran o distribuyen agua para consumo humano y con la administración municipal; la identificación de los factores de riesgo y las características físicas, químicas y microbiológicas de las fuentes de agua aferentes a las captaciones de acueducto que puedan afectar la salud humana, contribuyendo con ello a las acciones de inspección, vigilancia y control por parte de las autoridades competentes”. 
+            span establece que dichas autoridades “deberán coordinar con los Comités de Vigilancia Epidemiológica Departamentales, Distritales y Municipales,
+            span.text-bold Coves 
+            span , con las personas prestadoras que suministran o distribuyen agua para consumo humano y con la administración municipal; la identificación de los factores de riesgo y las características físicas, químicas y microbiológicas de las fuentes de agua aferentes a las captaciones de acueducto que puedan afectar la salud humana, contribuyendo con ello a las acciones de inspección, vigilancia y control por parte de las autoridades competentes”. 
         .col-xl-1.col-md-4.col-sm-4.col-5(data-aos="flip-down")
           img(src='@/assets/curso/tema1/figura4.svg')
     .row.justify-content-center.mt-4
@@ -405,7 +405,7 @@
             p En el campo de la gestión de riesgo en sistemas de tratamiento y distribución de agua es importante debido a que en las operaciones unitarias se pueden emplear sustancias que pueden convertirse en residuos peligrosos. Esta normativa tiene por objeto que se prevenga la generación de residuos peligrosos, e igualmente que se regule el manejo de los residuos generados, para la protección de la salud humana y del ambiente.
 
     .cajon.color-secundario.p-4.mb-4.my-5(data-aos="fade-down")
-      p El decreto 4741 (compilado en el decreto 1076, artículo 2.2.6.1.1.3), define como residuo o desecho a “cualquier objeto, material, sustancia, elemento o producto que se encuentra en estado sólido o semisólido, o es un líquido o gas contenido en recipientes o de pósitos, cuyo generador descarta, rechaza o entrega porque sus propiedades no permiten usarlo nuevamente en la actividad que lo generó o porque la legislación o la normatividad vigente así lo estipula”.
+      p El decreto 4741 (compilado en el decreto 1076, artículo 2.2.6.1.1.3), define como residuo o desecho a “cualquier objeto, material, sustancia, elemento o producto que se encuentra en estado sólido o semisólido, o es un líquido o gas contenido en recipientes o depósitos, cuyo generador descarta, rechaza o entrega porque sus propiedades no permiten usarlo nuevamente en la actividad que lo generó o porque la legislación o la normatividad vigente así lo estipula”.
     p.mb-5 En este decreto se definen conceptos como:
 
     .row.justify-content-center.justify-content-center
@@ -416,7 +416,7 @@
             .tarjeta-flip__img.imagen-conf(:style="{'background-image': `url(${require('@/assets/curso/tema1/sustanciapeligrosa.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-bold Residuo peligroso
-              span “Aquel residuo o desecho que, por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, puede causar riesgos, daños o efectos no deseados, directos e indirectos, a la salud humana y el ambiente. Así mismo, se considerará residuo peligroso los empaques, envases y embalajes que estuvieron en contacto con ellos”. 
+              span “Aquel residuo o desecho que, por sus características corrosivas, reactivas, explosivas, tóxicas, inflamables, infecciosas o radiactivas, puede causar riesgos, daños o efectos no deseados, directos e indirectos, a la salud humana y el ambiente. Así mismo, se considerarán residuos peligrosos los empaques, envases y embalajes que estuvieron en contacto con ellos”. 
 
       .col-xl-4.col-sm-8.mb-4
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -424,7 +424,7 @@
             .tarjeta-flip__img.imagen-conf(:style="{'background-image': `url(${require('@/assets/curso/tema1/figura8.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               p.text-bold Riesgo
-              span “Probabilidad o posibilidad de que el manejo, la liberación al ambiente y la exposición a un material o residuo, ocasionen efectos adversos en la salud humana y/o al ambiente”.
+              span “Probabilidad o posibilidad de que el manejo, la liberación al ambiente y la exposición a un material o residuo, ocasionen efectos adversos en la salud humana o al ambiente”.
 
     p.mt-5(data-aos="flip-right") En el 
       span.text-bold Anexo I 
@@ -452,10 +452,10 @@
           br
           br
         p.mb-0 El objeto del 
-          span.text-bold decreto 1609
+          span.text-bold Decreto 1609
           span , de acuerdo con el 
-          span.text-bold  artículo 1
-          span , “establecer los requisitos técnicos y de seguridad para el manejo y transporte de mercancías peligrosas por carretera en vehículos automotores en todo el territorio nacional, con el fin de minimizar los riesgos, garantizar la seguridad y proteger la vida y el medio ambiente, de acuerdo con las definiciones y clasificaciones establecidas en la 
+          span.text-bold  artículo 1 
+          span es “establecer los requisitos técnicos y de seguridad para el manejo y transporte de mercancías peligrosas por carretera en vehículos automotores en todo el territorio nacional, con el fin de minimizar los riesgos, garantizar la seguridad y proteger la vida y el medio ambiente, de acuerdo con las definiciones y clasificaciones establecidas en la 
           span.text-bold Norma Técnica Colombiana NTC 1692”. 
 
     .tarjeta.fondo12.mb-5.disminuir.paddCelTop.p-3

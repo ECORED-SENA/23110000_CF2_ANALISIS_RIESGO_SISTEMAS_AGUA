@@ -93,7 +93,7 @@
                         td.text-center 15
                       tr.fondo-blanco
                         td 
-                          span.ms-5 Ph
+                          span.ms-5 pH
                         td.text-center 1,5
                       tr.fondo-gris
                         td 
@@ -250,7 +250,7 @@
       span.text-bold  tabla 2 
       span se presenta dicho nivel de riesgo, así como las acciones que debe realizar la autoridad sanitaria competente.
     .titulo-sexto.color-acento-contenido(data-aos="fade")
-      h5 tabla 2
+      h5 Tabla 2
       span Clasificación del nivel de riesgo en salud según el 
       span.text-bold IRCA 
       span por muestra y el 
@@ -270,7 +270,7 @@
             tbody
               tr.fondo-blanco
                 td 
-                  span.ms-4 80,1 -100
+                  span.ms-4 80,1-100
                 td.text-center Inviable sanitaria-
                   span mente
                 td 
@@ -278,7 +278,7 @@
                 td Agua no apta para consumo humano, gestión directa de acuerdo con su competencia de la persona prestadora, alcaldes, gobernadores y entidades del orden nacional.
               tr.fondo-gris
                 td 
-                  span.ms-4 35,1 - 80
+                  span.ms-4 35,1-80
                 td.text-center Alto
                 td 
                   span Informar a la persona prestadora, COVE, alcalde, gobernador y a la SSPD. 
@@ -286,21 +286,21 @@
                   span Agua no apta para consumo humano, gestión directa de acuerdo con su competencia de la persona prestadora y de los alcaldes y gobernadores respectivos.         
               tr.fondo-blanco
                 td 
-                  span.ms-4 14,1 - 35
+                  span.ms-4 14,1-35
                 td.text-center Medio
                 td 
                   span Informar a la persona prestadora, COVE, alcalde y gobernador.
                 td Agua no apta para consumo humano, gestión directa de la persona prestadora.
               tr.fondo-gris
                 td 
-                  span.ms-4 5,1 - 14
+                  span.ms-4 5,1-14
                 td.text-center Bajo
                 td 
                   span Informar a la persona prestadora y al COVE.
                 td Agua no apta para consumo humano, susceptible de mejoramiento.
               tr.fondo-blanco
                 td 
-                  span.ms-4 0 - 5
+                  span.ms-4 0-5
                 td.text-center Sin riesgo
                 td 
                   span Continuar el control y la vigilancia
@@ -351,7 +351,7 @@
     p De igual manera, es importante realizar la consulta del 
       span.text-bold artículo 7 de la resolución 4716
       span , en donde se establecen las frecuencias y número de muestras de agua para control y vigilancia de las características físicas, químicas y microbiológicas definidas en el mapa de riesgo de la calidad del agua para consumo humano.
-    p Para complementar el tema del mapa de riesgo de la calidad de agua potable se sugiere visualizar el video denominado “Mapa De Riesgo del agua para consumo humano, UESVALLE”, ubicado en la sección de material complementario.
+    p Para complementar el tema del mapa de riesgo de la calidad de agua potable se sugiere visualizar el video denominado “Mapa de riesgo del agua para consumo humano, UESVALLE”, ubicado en la sección de material complementario.
 
 
 </template>

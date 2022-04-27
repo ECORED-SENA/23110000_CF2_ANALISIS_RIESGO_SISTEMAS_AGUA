@@ -69,7 +69,8 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Mapas de riesgo en sistemas de tratamiento', //--y distribución de agua potable',
+        titulo:
+          'Mapas de riesgo en sistemas de tratamiento y distribución de agua potable',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -270,7 +271,6 @@ export default {
       tipo: 'PDF',
       descarga: [
         '/downloads/Anexo3_CF002_Guías_calidad_agua potable_OMS_2017.pdf',
-        '/downloads/ANEXO9_1.pdf',
       ],
     },
     {
