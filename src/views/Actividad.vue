@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Preguntas de Falso/Verdadero.
             .col-auto(data-aos="zoom-left")
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
