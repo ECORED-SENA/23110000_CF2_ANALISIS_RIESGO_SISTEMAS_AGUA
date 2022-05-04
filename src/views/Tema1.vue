@@ -161,7 +161,7 @@
               figure
                 img(src='@/assets/componentes/tema1/lupa.svg')
 
-          p Coordinación del Programa Interlaboratorio de Control de Calidad del Agua Potable PICCAP.
+          p Coordinación del Programa Interlaboratorio de Control de Calidad de Aguas Potables (PICCAP).
 
       .col-12.col-sm-6.col-lg-4.col-xl-3.mb-4.mb-sm-0(data-aos="slide-right")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
@@ -173,7 +173,7 @@
               figure
                 img(src='@/assets/componentes/tema1/celulas.svg')
 
-          p Inscripción en el Programa Interlaboratorio de Control de Calidad para Agua Potable PICCAP, a laboratorios pertenecientes a la red de salud pública y los laboratorios privados que lo soliciten (nacionales o extranjeros) que lleven a cabo análisis físicos, químicos o microbiológicos de agua para consumo humano.
+          p Inscripción en el Programa Interlaboratorio de Control de Calidad de Aguas Potables (PICCAP), a laboratorios pertenecientes a la red de salud pública y los laboratorios privados que lo soliciten (nacionales o extranjeros) que lleven a cabo análisis físicos, químicos o microbiológicos de agua para consumo humano.
     .row.align-items-center.justify-content-center.my-5
       .col-xl-7.col-12(data-aos="flip-right")
         p.mb-4 Es así como el 
