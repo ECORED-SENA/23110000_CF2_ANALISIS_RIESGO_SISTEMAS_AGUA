@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center(data-aos="flip-left")
           figure
-            img(src="@/assets/curso/actividad/FALSOYVERDADERO.png", alt="Texto que describa la imagen")
+            img(src="@/assets/curso/actividad/FALSOYVERDADERO.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo(data-aos="fade")
           h2 Actividad didáctica 1
