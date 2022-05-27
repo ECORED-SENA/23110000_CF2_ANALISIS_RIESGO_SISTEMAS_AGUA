@@ -55,7 +55,7 @@
         img.mb-4(src='@/assets/curso/tema2/figura2.svg')
       .col-xl-7.col-sm-10(data-aos="zoom-left")
         p El Índice de 
-          span.text-boldRiesgo de la Calidad del Agua Potable (IRCA) 
+          span.text-boldRiesgo la Calidad del Agua Potable (IRCA) 
           span hace parte de los instrumentos básicos que garantizan la calidad del agua para consumo humano, especificado en el 
           span.text-bold artículo 13 de la Resolución 2115 de 2007
           span . En la 

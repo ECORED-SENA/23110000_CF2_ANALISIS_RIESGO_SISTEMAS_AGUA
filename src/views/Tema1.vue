@@ -104,7 +104,7 @@
               div(x="50%" y="96.8%" tooltip="Click para leer...")
                 p Clasificación de riesgo en salud por Índice de Riesgo de la Calidad del Agua para Consumo Humano (IRCA) según artículos 13, 14 y 15 de la resolución conjunta número 2115 de 2007 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial, o aquella que la adicione, modifique o sustituya.
               div(x="84.1%" y="76%" tooltip="Click para leer...")
-                p Clasificación de riesgo en salud por índice de riesgo municipal por abastecimiento de agua para consumo humano (IRABAm) según artículos 17, 18 y 19 de la resolución conjunta número 2115 de 2007 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial, o aquella que la adicione, modifique o sustituya.
+                p Clasificación de riesgo en salud por Índice de Riesgo Municipal por Abastecimiento de Agua para Consumo Humano (IRABAm) según artículos 17, 18 y 19 de la resolución conjunta número 2115 de 2007 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial, o aquella que la adicione, modifique o sustituya.
               div(x="97.5%" y="32.25%" tooltip="Click para leer..." numero="+")
                 p Recopilación de información para elaboración de los mapas de riesgo, según el artículo 4° de la resolución conjunta número 4716 de 2010 de los entonces ministerios de protección social y ministerio de ambiente, vivienda y desarrollo territorial.
     separador
@@ -200,7 +200,7 @@
 
     p.mb-5(data-aos="flip-right") Otro aspecto relevante que se establece en el decreto tiene que ver con los indicadores y herramientas necesarias para la vigilancia de los factores de riesgo de calidad de agua suministrada en el sistema, estableciendo en el 
       span.text-bold artículo 12 
-      span el índice de riesgo de la calidad del agua para consumo humano (
+      span el Índice de Riesgo de la Calidad del Agua para Consumo Humano (
       span.text-bold IRCA
       span ), el cual se define como el grado de riesgo de ocurrencia de enfermedades relacionadas con el incumplimiento de características físico-químicas y microbiológicas del agua en redes de distribución de agua potable. 
 
@@ -283,7 +283,7 @@
               img.mb-3.ancho-img(src='@/assets/template/tema1/imagen2.png')
           .col-md-6.mb-4.mb-md-0
             p.me-3.ms-0.mt-5 Otro componente fundamental de la 
-              span.text-bold resolución 2115 
+              span.text-bold resolución 2115
               span , está establecido en los 
               span.text-bold  artículos 21 y 22 del capítulo V
               span , donde se relacionan las frecuencias y número de muestras para el control de la calidad fisicoquímica del agua, se invita al aprendiz a consultar el 
@@ -332,8 +332,8 @@
         .col-xl-11.col-md-12(data-aos="zoom-up")
           p El 
             span.text-bold artículo 15 del decreto 1575 de 2007 
-            span establece que dichas autoridades “deberán coordinar con los Comités de Vigilancia Epidemiológica Departamentales, Distritales y Municipales,
-            span.text-bold Coves 
+            span establece que dichas autoridades “deberán coordinar con los Comités de Vigilancia Epidemiológica Departamentales, Distritales y Municipales, 
+            span.text-bold Coves
             span , con las personas prestadoras que suministran o distribuyen agua para consumo humano y con la administración municipal; la identificación de los factores de riesgo y las características físicas, químicas y microbiológicas de las fuentes de agua aferentes a las captaciones de acueducto que puedan afectar la salud humana, contribuyendo con ello a las acciones de inspección, vigilancia y control por parte de las autoridades competentes”. 
         .col-xl-1.col-md-4.col-sm-4.col-5(data-aos="flip-down")
           img(src='@/assets/curso/tema1/figura4.svg')
@@ -357,7 +357,7 @@
     .cajon.color-primario.p-4.my-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-xl-11.col-md-12
-          p El 
+          p En 
             span.text-bold La Resolución 811 de 2008 
             span tiene por objeto “establecer los lineamientos para que en forma concertada la autoridad sanitaria y las personas prestadoras que suministran y distribuyen agua para consumo humano, definan en su área de influencia los lugares y puntos para recolectar las muestras de agua para consumo humano en la red de distribución. Dichos lineamientos, deben  ser utilizados para llevar a cabo las acciones de control y vigilancia de la calidad del agua”. 
         .col-xl-1.col-md-4.col-sm-4.col-5
@@ -377,7 +377,7 @@
               
             p.text-dark Según el 
               span.text-bold.text-dark artículo 2
-              span.text-dark , los puntos de muestreo en redes de distribución del sistema de agua potable deben instalarse teniendo en cuenta los planos del sistema de redes de distribución o el catastro de redes de distribución. sin embargo, se invita al aprendiz a consultar los lineamientos del 
+              span.text-dark , los puntos de muestreo en redes de distribución del sistema de agua potable deben instalarse teniendo en cuenta los planos del sistema de redes de distribución o el catastro de redes de distribución. Sin embargo, se invita al aprendiz a consultar los lineamientos del 
               span.text-bold.text-dark artículo 2 de la resolución 811
               span.text-dark , ubicada en la sección de material complementario, en donde se establecen los criterios mínimos para la ubicación de los puntos de muestreo.
       .col-xl-5.col-sm-12(data-aos="fade-right")

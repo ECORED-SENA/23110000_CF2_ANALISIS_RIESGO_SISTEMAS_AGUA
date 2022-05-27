@@ -36,7 +36,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Decreto 1575 de 2007 y Resolución 2115 de 2007os',
+            titulo: 'Decreto 1575 de 2007 y Resolución 2115 de 2007',
             hash: 'dec1575',
           },
           {
@@ -131,6 +131,49 @@ export default {
   referencias: [
     {
       referencia:
+        ' Decreto 1575 de 2007. [Presidencia de La República de Colombia]. por el cual se establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano. Diario Oficial 46623 de mayo 09 de 2007.',
+    },
+    {
+      referencia:
+        'Decreto 1609 de 2002. [Presidencia de la República de Colombia]. Por el cual se reglamenta el manejo y transporte terrestre automotor de mercancías peligrosas por carretera. Julio 31 de 2002',
+    },
+    {
+      referencia:
+        'Decreto 4741 de 2005. [Ministerio de Ambiente, Vivienda y Desarrollo Territorial].  Por el cual se reglamenta parcialmente la prevención y el manejo de los residuos o desechos peligrosos generados en el marco de la gestión integra. 30 de diciembre de 2005.',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Salud-INS. (2011). Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio. Bogotá, Colombia.',
+    },
+    {
+      referencia:
+        'Ministerio de Vivienda, Ciudad y Territorio. (s.f.). Viceministerio de Agua y Saneamiento Básico. Recuperado el 14 de octubre de 2021.',
+      link:
+        'https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico',
+    },
+    {
+      referencia:
+        'Organización Mundial de la Salud-OMS. (2017). Guías para la calidad del agua de consumo humano. Recuperado el 13 de 10 de 2021.',
+      link: 'https://www.who.int/es/publications/i/item/9789241549950',
+    },
+    {
+      referencia:
+        'Resolución 2115 de 2007. [Ministerio de la Protección Social Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007.',
+    },
+    {
+      referencia:
+        'Resolución 330 de Resolución 330 de 2017. [Ministerio de Salud y Protección Social]. Por la cual se adopta el procedimiento técnico-científico y participativo para la determinación de los servicios y tecnologías que no podrán ser financiados con recursos públicos asignados a la salud y se establecen otras disposiciones. Febrero 14 de 2017.2017-Reglamento Técnico para el Sector de Agua Potable. (8 de Junio de 2017).',
+    },
+    {
+      referencia:
+        'Resolución 4716 de 2010. [Ministerio de Salud y Protección Social]. Por medio de la cual se reglamenta el parágrafo del artículo 15 del Decreto 1575 de 2007. 18 de noviembre de 2010.',
+    },
+    {
+      referencia:
+        'Resolución 811 de 2008. [Ministerio de la Protección Social]. Por medio de la cual se definen los lineamientos a partir de los cuales la autoridad sanitaria y las personas prestadoras, concertadamente definirán en su área de influencia los lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución. marzo 5 de 2008.',
+    },
+    {
+      referencia:
         'USGS. (s.f.). El Ciclo del Agua, The Water Cycle, Spanish. Recuperado el 13 de 10 de 2021',
       link:
         'https://www.usgs.gov/special-topic/water-science-school/science/el-ciclo-del-agua-water-cycle-spanish?qt-science_center_objects=0#qt-science_center_objects',
@@ -164,7 +207,7 @@ export default {
     {
       termino: 'IRABAm',
       significado:
-        'Índice de riesgo municipal por abastecimiento de agua para consumo humano.',
+        'Índice de Riesgo Municipal por Abastecimiento de Agua para Consumo Humano.',
     },
     {
       termino: 'IRCA',
@@ -181,7 +224,7 @@ export default {
         'Aquellas personas prestadoras que, acorde con la Ley 142 de 1994, suministran agua para consumo humano tratada o sin tratamiento.',
     },
     {
-      termino: 'Red de distribución o red pública ',
+      termino: 'Red de distribución o red pública',
       significado:
         'Conjunto de tuberías, accesorios, estructura y equipos que conducen el agua desde el tanque de almacenamiento o planta de tratamiento hasta las acometidas domiciliarias.',
     },
@@ -206,7 +249,7 @@ export default {
       significado: ' Sistema Único de Información.',
     },
     {
-      termino: 'Tratamiento o potabilización ',
+      termino: 'Tratamiento o potabilización',
       significado:
         'Conjunto de operaciones y procesos que se realizan sobre el agua cruda, con el fin de modificar sus características físicas, químicas y microbiológicas, para hacerla apta para el consumo humano.',
     },
